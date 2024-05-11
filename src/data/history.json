@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Creative Brands",
+    "startDate": "Jan, 2022",
+    "endDate": "Present",
+    "experiences": [
+      "Worked on Waya and Pigi Mobile apps", 
+      "Redesigned the backend from monolith to a microservices architecture"
+    ],
+    "imageSrc": "history/cb-logo.jpeg"
+  },
+  {
+    "role": "Fullstack Engineer",
+    "organisation": "Connvotech Solutions",
+    "startDate": "Sept, 2019",
+    "endDate": "Dec, 2021",
+    "experiences": ["Worked on building software solutions for clients ie management systems", "Reduced cloud costs by 50% by re-architecturing company's solutions"],
+    "imageSrc": "history/convotech.png"
+  },
+  {
+    "role": "SE Intern",
+    "organisation": "Deep Africa Limited",
+    "startDate": "June, 2019",
+    "endDate": "Sept, 2019",
+    "experiences": [
+      "Deploying websites and softwares to cloud",
+      "Resolving issues with clients' hosting accounts and websites"
+    ],
+    "imageSrc": "history/deepafrica-logo.jpeg"
+  }
+]

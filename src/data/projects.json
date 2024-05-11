@@ -1,0 +1,50 @@
+[
+  {
+    "title": "SmartBanking",
+    "imageSrc": "projects/project.png",
+    "description": " A banking app for finance management and money transfers",
+    "skills": ["Chart.js", "OpenSource"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "SAAS AI",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "3WEB",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Ecommerce",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Mobile App",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "DigiNomads",
+    "imageSrc": "projects/project.png",
+    "description": "A travel website for digital nomads who fancy traveling.",
+    "skills": ["TypeScript", "Next.js", "Tailwind Css"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
