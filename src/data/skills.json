@@ -38,5 +38,9 @@
   {
     "title": "Google Cloud",
     "imageSrc": "skills/gcp.webp"
+  },
+  {
+    "title": "Docker ",
+    "imageSrc": "skills/dockerimg.png"
   }
 ]

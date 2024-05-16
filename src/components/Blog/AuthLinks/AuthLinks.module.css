@@ -1,0 +1,14 @@
+.container {
+    color: aliceblue;
+}
+.authLinksContainer {
+    display: flex;
+    align-items: center; 
+    gap: 47px; 
+  }
+
+@media screen and (max-width : 940px){
+    .writeLink{
+        background-color: azure;
+    }
+}

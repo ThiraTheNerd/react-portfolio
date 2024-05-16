@@ -10,15 +10,15 @@
   {
     "title": "SAAS AI",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "An AI platform",
+    "skills": ["Python", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "title": "3WEB",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A web3 based platform that uses crypto.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
@@ -34,7 +34,7 @@
   {
     "title": "Mobile App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A mobile app for a laundry company.",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"

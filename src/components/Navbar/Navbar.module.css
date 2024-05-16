@@ -5,9 +5,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 11px;
   z-index: 2;
   margin: 0 10%;
+  cursor: pointer;
+
+
+}
+.navCenter,
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 15px; */
+  margin-left: 120px;
+  margin-top: 60px;
 }
 
 .title {
@@ -37,11 +50,29 @@
   color: var(--color-text);
   text-decoration: none;
 }
-
-@media screen and (max-width: 830px) {
+.auth-links-container{
+  display: flex;
+  align-items: center; /* Align items vertically */
+  /* gap: 47px; */
+}
+.youtubeLogo{
+  margin-right: 10px;
+}
+.githubLogo{
+  margin-left: 5px;
+  /* border: solid white; */
+}
+@media screen and (max-width: 2400px){
+  .navbar{
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1240px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0%;
+    margin-left: 2%;
   }
 
   .menu {
@@ -74,9 +105,32 @@
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
+  .navRight{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    /* gap: 13px */
+  }
 
   .menuOpen {
     display: flex;
     z-index: 1;
   }
+}
+@media screen and (max-width: 1024px) {
+  .navbar{
+    margin: 0%;
+    margin-left: 2%;
+    
+  }
+  
 }

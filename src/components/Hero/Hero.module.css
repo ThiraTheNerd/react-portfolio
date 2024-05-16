@@ -1,11 +1,11 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -85,6 +85,7 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  overflow: hidden;
 }
 
 .bottomBlur {
@@ -99,6 +100,7 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 830px) {

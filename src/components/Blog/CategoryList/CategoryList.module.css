@@ -1,0 +1,83 @@
+.container {
+    z-index: 1;
+}
+
+.title {
+  margin: 50px 0px;
+  z-index: 1;
+  position: relative;
+}
+
+.categories {
+  display: flex;
+  z-index: 1;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 10%;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.category.technology {
+  background-color: #ef119e31;
+}
+
+.category.softwaredev {
+  background-color: #da85c731;
+  padding-left: 20px;
+}
+
+.category.work {
+  background-color: #7fb88133;
+}
+
+.category.books {
+  background-color: #ff795736;
+}
+
+.category.travel {
+  background-color: #ffb04f45;
+}
+
+.category.life {
+  background-color: #5e4fff31;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .category {
+    width: 100%;
+  }
+  /* .title{
+    font-size: 72px;
+  } */
+}
+@media screen and (max-width: 1024px) {
+  .category {
+    width: 20%;
+    border: solid ;
+  }
+}
+@media screen and (max-width: 768px) {
+  .category {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .category {
+    width: 100%;
+  }
+}

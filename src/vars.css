@@ -9,3 +9,40 @@
     /* Fonts */
     --font-roboto: "Roboto";
 }
+
+.dark {
+    --color-bg: #e7e9eb;
+    --color-text: #060606;
+    --color-primary:#bbbfcf;
+    --color-dark: #7d7f89;
+    --color-secondary: #7f99b3;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+/* .light {
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-light: #afbbca;
+    --color-bg: #d0d3d7;
+} */
+
+/* .App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+} */
