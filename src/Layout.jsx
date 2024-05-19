@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router'
 import { Navbar } from './components/Navbar/Navbar'
+import Footer  from './components/Footer/Footer'
 import './index.css'
 import {ThemeContextProvider} from './context/ThemeContext'
 // import {Inter} from 'next/font/google'
@@ -19,6 +20,7 @@ export const metadata = {
             <div className='wrapper'> 
             <Navbar />
             <Outlet/>
+            <Footer />
             {children}
             </div>
           </div>

@@ -4,7 +4,6 @@ import { Hero } from "./components/Hero/Hero";
 import { About } from "./components/About/About"
 import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact/Contact";
 import { Routes, Route } from "react-router-dom";
 import BlogNavbar from "./components/Blog/BlogNavbar/BlogNavbar";
 import Footer from "./components/Footer/Footer";
@@ -17,21 +16,16 @@ function App() {
       <Route path="/" element={<RootLayout /> }>
         <Route index element={
           <div className={styles.App}>
-          {/* <Navbar /> */}
           <Hero />
           <About />
           <Experience />
           <Projects />
-          <Contact />
         </div>
         }>
         </Route>
         <Route path={'/blog'} element={
         <div className={styles.App}>
-          {/* <BlogNavbar /> */}
           <HomePageBlog/>
-          <Footer/>
-          {/* <BlogHomePage /> */}
         </div>
 
       } />

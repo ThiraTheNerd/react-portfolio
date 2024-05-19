@@ -1,10 +1,11 @@
 .container {
     margin-top: 50px;
-    padding: 20px 140px;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    padding: 58px 10%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: var(--softTextColor);
+    justify-content: space-evenly;
   }
   
   .info {

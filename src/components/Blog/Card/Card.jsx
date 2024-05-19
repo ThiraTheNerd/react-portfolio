@@ -5,12 +5,14 @@ const Card = () => {
   return (
     <div className={styles.container}>
         <div className={styles.imageContainer}>
-        {/* <img
+        <img
         src={getImageUrl("blog/blogpostimage.jpg")}
         alt=""
         fill
         className={styles.image}
-        /> */}
+        width={250}
+        height={250}
+        />
         </div>
         <div className={styles.textContianer}>
             <div className={styles.detail}>
