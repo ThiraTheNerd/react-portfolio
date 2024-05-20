@@ -7,7 +7,7 @@ const CategoryPage = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Styles Category</h1>
       <div className={styles.content}>
-        <CardList />
+        <CardList className={styles.card}/>
         <Menu />
       </div>
     </div>
