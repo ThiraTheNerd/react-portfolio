@@ -32,7 +32,7 @@ const CategoryList =  () => {
         Technology
         </Link>
         <Link
-        href="/blog?cat=style"
+        to="/blog?cat=style"
         className={`${styles.category} ${styles.softwaredev}`}>
         <img
                 src={getImageUrl("history/netflix.png")}
@@ -44,7 +44,7 @@ const CategoryList =  () => {
         Software Development
         </Link>
         <Link
-        href="/blog?cat=style"
+        to="/blog?cat=style"
         className={`${styles.category} ${styles.work}`}>
         <img
                 src={getImageUrl("history/netflix.png")}
@@ -56,7 +56,7 @@ const CategoryList =  () => {
         Work
         </Link>
         <Link
-        href="/blog?cat=style"
+        to="/blog?cat=style"
         className={`${styles.category} ${styles.books}`}>
         <img
                 src={getImageUrl("history/netflix.png")}
@@ -68,7 +68,7 @@ const CategoryList =  () => {
         Books
         </Link>
         <Link
-        href="/blog?cat=style"
+        to="/blog?cat=style"
         className={`${styles.category} ${styles.travel}`}>
         <img
                 src={getImageUrl("history/netflix.png")}
@@ -80,7 +80,7 @@ const CategoryList =  () => {
         Travel
         </Link>
         <Link
-        href="/blog?cat=style"
+        to="/blog?cat=style"
         className={`${styles.category} ${styles.life}`}>
         <img
                 src={getImageUrl("history/netflix.png")}

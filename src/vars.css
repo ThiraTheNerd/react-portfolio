@@ -10,13 +10,13 @@
     --font-roboto: "Roboto";
 }
 
-.dark {
+/* .dark {
     --color-bg: #e7e9eb;
     --color-text: #060606;
     --color-primary:#bbbfcf;
     --color-dark: #7d7f89;
     --color-secondary: #7f99b3;
-}
+} */
 a {
     text-decoration: none;
     color: inherit;

@@ -9,6 +9,10 @@ import BlogNavbar from "./components/Blog/BlogNavbar/BlogNavbar";
 import Footer from "./components/Footer/Footer";
 import RootLayout from "./Layout";
 import HomePageBlog from "./pages/blog";
+import CategoryPage from "./components/Blog/pages/Category/CategoryPage";
+import SinglePagePost from "./app/[slug]/SinglePage"
+import LoginPage from "./components/Blog/pages/login/login";
+import Write from "./components/Blog/pages/write/Write";
 // import {BlogHomePage} from "./components/Blog/pages/BlogHomePage";
 function App() {
   return (
@@ -23,13 +27,16 @@ function App() {
         </div>
         }>
         </Route>
-        <Route path={'/blog'} element={
+        <Route path={'/blog'} className={styles.App} element={
         <div className={styles.App}>
           <HomePageBlog/>
         </div>
-
-      } />
-      <Route path={'/login'}></Route>
+        }></Route>
+        <Route path='/blog/:cat' className={styles.App} element={<CategoryPage />} />
+        <Route path="/blog/:category/:post" element={<SinglePagePost/>}/>
+        <Route path="/write" className={styles.App} element = {
+        <div className={styles.App}><Write/></div>}></Route>
+        <Route path={'/login'} element = {<LoginPage/>}></Route>
       </Route>
     </Routes>
   );

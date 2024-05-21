@@ -2,9 +2,13 @@
 
 .App {
   background-color: var(--color-bg);
-  width: 100%;
+  width: Auto;
   height: 100%;
-  overflow: hidden;
+  /* color: var(--color-text); */
+  /* overflow: hidden; */
+  margin: solid;
+  padding:0 100px;
+  
  
 }
 @media screen and (max-width: 1024px) {
